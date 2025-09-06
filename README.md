@@ -19,8 +19,7 @@ This project was built for **Hackathon 2025** by **Kirti & Swaliya**.
  🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript  
 - **API:** Spoonacular Recipe API  
-- **Other:** jsPDF (for PDF download)
-- 
+- **Other:** jsPDF (for PDF download) 
 
  📂 Project Structure
 ```
