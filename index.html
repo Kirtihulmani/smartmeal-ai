@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Grocery & Recipe Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <nav>
+    <h1>🥗 SmartMeal AI</h1>
+    <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+  </nav>
+
+  <section class="container">
+    <h2>Enter Ingredients You Have</h2>
+    <textarea id="ingredients" placeholder="e.g. tomato, onion, rice, chicken"></textarea>
+    <button onclick="getRecipesSpoonacular()">Generate Recipes & Shopping List</button>
+  </section>
+
+  <section class="results">
+    <div id="recipes">
+      <h2>🍳 Recipe Suggestions</h2>
+      <div id="recipeOutput"></div>
+    </div>
+    <div id="shopping">
+      <h2>🛒 Shopping List</h2>
+      <div id="shoppingOutput"></div>
+      <button id="downloadPdf" onclick="downloadShoppingList()">⬇️ Download Shopping List as PDF</button>
+    </div>
+  </section>
+
+  <!-- ✅ About Section -->
+  <section class="about">
+    <h2>About This Project</h2>
+    <p>
+      Meal planning and shopping can often feel stressful. <br>
+      This smart web app helps you by suggesting recipes based on the ingredients you already have 
+      and generating a shopping list for the missing items. <br>
+      The goal is to save time, reduce food waste, and make cooking easier for everyone.
+    </p>
+  </section>
+
+  <!-- ✅ Footer -->
+  <footer>
+    <p>👩‍💻 Project by <b>Kirti</b> & <b>Swaliya</b> | Hackathon 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
