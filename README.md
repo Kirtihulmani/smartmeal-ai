@@ -34,7 +34,7 @@ This project was built for **Hackathon 2025** by **Kirti & Swaliya**.
 🔑 Setup Instructions
 1. Clone or download this repository.  
    ```bash
-   git clone https://github.com/YOUR-USERNAME/smartmeal-ai.git
+   git clone https://github.com/Kirtihulmani/smartmeal-ai.git
    ```
 2. Open `index.html` in your browser.  
 3. Enter ingredients → get recipes + shopping list.  
